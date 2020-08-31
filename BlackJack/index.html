@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>The BlackJack Game</h1>
+    <h2><span class="message-area">Let's play</span></h2>
+  </header>
+  
+  <section >
+
+    <div class="gameboard">
+      <div class='container'>
+        <h2>Player points: <span class="human-player-points">0</span></h2>
+        <div class="human-player-cards">
+          <!-- <img src="/static/images/10C.jpg" alt="" >
+          <img src="/static/images/10C.jpg" alt="" >
+          <img src="/static/images/10C.jpg" alt="" >
+          <img src="/static/images/10C.jpg" alt="" >
+          <img src="/static/images/10C.jpg" alt="" > -->
+        </div>
+      </div>
+      <div class='container'>
+        <h2>Computer points: <span class="computer-player-points">0</span></h2>
+        <div class="computer-player-cards"></div>
+      </div>
+    </div>
+      
+    <div class="buttons">
+      <button class="hit-button">Hit</button>
+      <button class="stand-button">Stand</button>
+      <button class="deal-button">Deal</button>
+    </div>
+    
+    <div class="scores">
+      <table>
+        <tr>
+          <th>Wins</th>
+          <th>Losses</th>
+          <th>Draws</th>
+        </tr>
+        <tr>
+          <td class="win-score">0</td>
+          <td class="loss-score">0</td>
+          <td class="draw-score">0</td>
+        </tr>
+      </table>
+    </div>
+
+  </section>
+
+  <script src="/static/js/script.js"></script>
+
+</body>
+</html>
