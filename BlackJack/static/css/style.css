@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0 10%;
+  text-align: center;
+}
+
+header h2 {
+  padding: 5px;
+}
+
+.message-area {
+  color: green;
+}
+
+section {
+  background-color: darkgreen;
+  box-shadow: inset 20px 20px 100px rgba(0, 0, 0, 0.5), inset -20px -20px 100px rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 50px;
+  color: lightgray;
+}
+
+
+/* Place for cards */
+.gameboard {
+  display: flex;
+  height: 700px;
+}
+
+.container h2 {
+  padding: 15px 0;
+}
+
+.gameboard .container {
+  flex: 1;
+}
+
+
+.players-cards {
+  width: 15%;
+  padding: 2%;
+  border-radius: 5%;
+}
+
+
+/* Button section */
+.buttons {
+  border-top: 2px solid black;
+  border-bottom: none;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  color: #fff;
+  padding: 10px 15px;
+  margin: 5px 20px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.hit-button {
+  background-color: rgb(21, 69, 216);
+}
+
+.stand-button {
+  background-color: coral;
+}
+
+.deal-button {
+  background-color: red;
+}
+
+/* Score table */
+
+.scores {
+  border-top: 2px solid black;
+  border-top: 2px solid black;
+  padding: 20px;
+}
+
+.scores table {
+  color: lightgray;
+  border-collapse: collapse;
+  margin: auto;
+  border: 1px solid lightgray;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
